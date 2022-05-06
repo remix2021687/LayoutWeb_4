@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+@keyframes anime1 {
+    to {
+        transform: translateY(0);
+    }
+
+    from {
+        transform: translateY(-15px);
+    }
+}
+
+/*Nav block*/
+.step-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://static.tildacdn.com/tild3830-6165-4966-b333-323931623135/33.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 721px;
+}
+
+.updown {
+    align-self: center;
+    animation: anime1 1000ms ease-in-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+    width: 58px;
+    height: 40px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.topnav-left {margin-left: 50px;}
+
+.topnav-left a {
+    font-size: 20px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-logo {margin-right: 175px;}
+
+.topnav-right button {
+    width: 129px;
+    height: 40px;
+    background-color: #FFDA08;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+.step-1-info {
+    margin: 80px 0 155px 0;
+    justify-self: center;
+    align-self: center;
+}
+
+.step-1-info h2 {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0 20px;
+    font-weight: 900;
+}
+
+.step-1-info h1 {
+    text-align: center;
+    font-size: 72px;
+    padding: 24px 0;
+    font-weight: 900;
+}
+
+/*Nab endblock*/
+
+/*Step-2 block*/
+
+.step-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.step-2-info {
+    padding: 180px 0;
+    align-self: center;
+    justify-self: center;
+}
+
+.step-2-info h4 {
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 16px;
+    margin: 0 0 25px;
+}
+
+.step-2-info p {
+    text-align: center;
+    width: 960px;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/*Step-2 endblock*/
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.step-3 button {
+    margin-top: 105px;
+    width: 279px;
+    height: 60px;
+    background: none;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 105px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.step-3 button:hover {transform: scale(1.1);}
+
+.step-3-header {
+    margin-bottom: 90px;
+    padding-top: 150px;
+}
+
+.step-3-header h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.step-3-header p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.step-3-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.step-3-left {margin-left: 32px;}
+
+.step-3-left h2 {
+    width: 500px;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.step-3-left p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.step-3-left a {
+    color: #1F5BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.step-3-left span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.step-3-right h2 {font-size: 19px;}
+/*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-4-img-1 {margin-top: 120px;}
+
+.step-4-header {margin: 45px 0 75px;}
+
+.step-4-header h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.step-4-header p {
+    font-size: 20px;
+    margin-top: 8px;
+    padding-bottom: 6px;
+    font-weight: 100;
+}
+
+.step-4-content img {padding-bottom: 30px;}
+
+.step-4-content p {
+    padding: 15px 0 60px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+/*Step-4 endblock*/
+/*Step-5 block*/
+.step-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-5 button {
+    width: 256px;
+    height: 60px;
+    background-color: #1F5BFF;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0 135px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.step-5 button:hover {transform: scale(1.1);}
+
+.step-5-header {padding: 90px 0 60px;}
+
+.step-5-header h2 {
+    font-size: 42px;
+    padding: 8px 0 3px;
+}
+
+.step-5-header h4 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 41px 0 0;
+}
+
+.inputs {
+    width: 760px;
+    height: 60px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    outline: none;
+}
+/*Step-5 endblock*/
+
+/*Footer block*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 569px;
+    background-color: whitesmoke;
+}
+
+.footer h2 {
+    font-size: 42px;
+    margin-bottom: 45px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+    font-weight: 100;
+}
+/*Footer endblock*/
