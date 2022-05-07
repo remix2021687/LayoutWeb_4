@@ -45,6 +45,14 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    opacity: 0;
+    transform: translateY(-600px);
+    transition: 2s ease;
+}
+
+.topnav.show {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .topnav-left {margin-left: 50px;}
@@ -73,6 +81,14 @@ body {
     margin: 80px 0 155px 0;
     justify-self: center;
     align-self: center;
+    transform: translateY(-500px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.step-1-info.show {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .step-1-info h2 {
@@ -102,6 +118,14 @@ body {
     padding: 180px 0;
     align-self: center;
     justify-self: center;
+    opacity: 0;
+    transform: translateY(-180px);
+    transition: 2s;
+}
+
+.step-2-info.show {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .step-2-info h4 {
@@ -147,6 +171,14 @@ body {
 .step-3-header {
     margin-bottom: 90px;
     padding-top: 150px;
+    opacity: 0;
+    transform: translateY(-200px);
+    transition: 2s;
+}
+
+.step-3-header.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .step-3-header h2 {
@@ -193,6 +225,40 @@ body {
 }
 
 .step-3-right h2 {font-size: 19px;}
+
+.box1 {
+    opacity: 0;
+    transform: translateX(300px);
+    transition: 2s;
+}
+
+.box1.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.box2 {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: 2s;
+}
+
+.box2.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.box3 {
+    opacity: 0;
+    transform: translateX(300px);
+    transition: 2s;
+}
+
+.box3.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 /*Step-3 endblock*/
 
 /*Step-4 block*/
@@ -202,9 +268,29 @@ body {
     align-items: center;
 }
 
-.step-4-img-1 {margin-top: 120px;}
+.step-4-img-1 {
+    margin-top: 120px;
+    opacity: 0;
+    transform: translateY(-120px);
+    transition: 2s;
+}
 
-.step-4-header {margin: 45px 0 75px;}
+.step-4-img-1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.step-4-header {
+    margin: 45px 0 75px;
+    opacity: 0;
+    transform: translateY(-120px);
+    transition: 2s;
+}
+
+.step-4-header.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .step-4-header h2 {
     text-align: center;
@@ -220,6 +306,28 @@ body {
 }
 
 .step-4-content img {padding-bottom: 30px;}
+
+.img4 {
+    opacity: 0;
+    transform: translateY(-85px);
+    transition: 2s;
+}
+
+.img4.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text4 {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: 2s;
+}
+
+.text4.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .step-4-content p {
     padding: 15px 0 60px;
@@ -251,7 +359,17 @@ body {
 
 .step-5 button:hover {transform: scale(1.1);}
 
-.step-5-header {padding: 90px 0 60px;}
+.step-5-header {
+    padding: 90px 0 60px;
+    opacity: 0;
+    transform: translateY(-150px);
+    transition: 2s;
+}
+
+.step-5-header.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .step-5-header h2 {
     font-size: 42px;
@@ -273,6 +391,39 @@ body {
     border-bottom: 1px solid black;
     margin-bottom: 30px;
     outline: none;
+}
+
+.input1 {
+    opacity: 0;
+    transform: translateX(370px);
+    transition: 2s;
+}
+
+.input1.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.input2 {
+    opacity: 0;
+    transform: translateX(-370px);
+    transition: 2s;
+}
+
+.input2.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.input3 {
+    opacity: 0;
+    transform: translateX(370px);
+    transition: 2s;
+}
+
+.input3.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 /*Step-5 endblock*/
 
