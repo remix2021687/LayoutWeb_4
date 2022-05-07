@@ -216,6 +216,7 @@ body {
 .step-3-left a {
     color: #1F5BFF;
     text-decoration: none;
+    border-bottom: 3px solid orangered;
     font-weight: bold;
 }
 
