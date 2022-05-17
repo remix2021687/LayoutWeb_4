@@ -112,6 +112,7 @@ body {
 .step-2 {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .step-2-info {
@@ -150,6 +151,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
+    overflow: hidden;
 }
 
 .step-3 button {
@@ -267,6 +269,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* overflow: hidden; */
 }
 
 .step-4-img-1 {
@@ -309,10 +312,14 @@ body {
 .step-4-content img {padding-bottom: 30px;}
 
 .img4 {
+    width: 1060px;
+    height: 534px;
+    max-width: 100%;
     opacity: 0;
     transform: translateY(-85px);
     transition: 2s;
 }
+
 
 .img4.show {
     opacity: 1;
@@ -342,6 +349,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .step-5 button {
@@ -450,3 +458,110 @@ body {
     font-weight: 100;
 }
 /*Footer endblock*/
+
+/*Media block*/
+
+@media (max-width: 1025px) {
+    .img4 {background-size: cover;}
+}
+
+
+@media (max-width: 958px) {
+    .step-2-info p {
+        width: auto;
+        font-weight: 400;
+        line-height: 32px;
+        font-size: 20px;
+    }
+
+    .step-3-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .step-3-left {margin-left: 0px;}
+}
+
+@media (max-width: 894px) {
+    .topnav {flex-direction: column;}
+    .topnav-left {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .topnav-logo {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .topnav-right button {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .step-1-info h1 {
+        font-size: 52px;
+    }
+    
+    .step-3-box img {margin-bottom: 15px;}
+
+    .step-3-left h2 {
+        width: 500px;
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .step-3-left h2 {width: auto;}
+    .step-3-right h2 {margin-top: 15px;}
+
+    .inputs {
+        width: 700px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 426px) {
+    .step-1-info h1 {font-size: 40px;}
+    .step-3-header h2 {font-size: 25px;}
+    .step-4-header h2 {
+        font-size: 30px;
+    }
+    
+    .step-4-header p {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .inputs {
+        width: 300px;
+        height: 60px;
+    }
+
+    .step-5-header h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .step-5-header h4 {
+        font-size: 16px;
+    }
+
+    .footer h2 {font-size: 30px;}
+    
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 321px) {
+    .step-1-info h1 {font-size: 30px;}
+    .step-3-header p {
+        font-size: 18px;
+    }
+
+    .step-4-header h2 {font-size: 24px;}
+    
+    .step-4-header p {font-size: 15px;}
+}
+/*Media endblock*/
