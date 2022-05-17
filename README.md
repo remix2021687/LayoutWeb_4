@@ -1,2 +1,2 @@
 # LayoutWeb_4
-#not supported adaptive
+#Supported adaptive
